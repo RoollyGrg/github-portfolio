@@ -2,15 +2,16 @@ import React from 'react'
 import './Profile.css'
 
 const Profile = () => {
-  const heroImage = '/hero-illustration.png'
+  const heroImage = '/hero-illustration.png'; 
 
   const downloadResume = () => {
-    const link = document.createElement('a')
-    link.href = '/resume.pdf'
-    link.download = 'Resume.pdf'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+    const link = document.createElement('a');
+    // Reference from the public folder
+    link.href = '/resume.pdf'; 
+    link.download = 'Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
@@ -18,7 +19,7 @@ const Profile = () => {
       <div className="profile-content">
         <div className="hero-layout">
           <div className="hero-illustration">
-            <img src={heroImage} alt="Creating iOS experiences" loading="lazy" />
+          <img src={heroImage} alt="Creating iOS experiences" loading="lazy" />
           </div>
             <div className="hero-copy">
             <p className="eyebrow">Hello there, I'm Bibek</p>
