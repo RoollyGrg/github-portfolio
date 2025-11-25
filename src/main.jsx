@@ -6,9 +6,10 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* Use HashRouter here instead of BrowserRouter */}
+    <HashRouter> 
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
 
