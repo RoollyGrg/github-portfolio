@@ -1,0 +1,165 @@
+.profile-section {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.profile-content {
+  max-width: 1100px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-layout {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.hero-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-illustration img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.hero-copy {
+  flex: 1.1;
+  text-align: left;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.hero-copy h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.profile-tagline {
+  font-size: 1.2rem;
+  color: #444;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-copy p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.hero-resume-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-resume-button:hover {
+  transform: translateY(-3px) scale(1.0);
+
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.7),
+              0 4px 15px rgba(118, 75, 162, 0.6),
+              0 0 40px rgba(255, 107, 107, 0.5),
+              0 0 20px rgba(255, 206, 84, 0.4);
+}
+
+.hero-resume-button:active {
+  transform: translateY(-1px) scale(1.02);
+}
+
+.button-text {
+  position: relative;
+  z-index: 1;
+}
+
+.button-icon {
+  position: relative;
+  z-index: 1;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+.hero-portfolio-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-portfolio-button:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+  .profile-section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .hero-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-copy {
+    text-align: center;
+  }
+  .hero-copy h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-resume-button,
+  .hero-portfolio-button {
+    padding: 14px 28px;
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+

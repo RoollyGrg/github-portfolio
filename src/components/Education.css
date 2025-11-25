@@ -1,0 +1,154 @@
+.education-section {
+  background-color: #ffffff;
+  padding: 100px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.education-content {
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.education-category {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.education-category h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 10px;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.credential-item {
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.credential-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.credential-header h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.credential-date {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.credential-institution {
+  color: #666;
+  font-size: 1.05rem;
+  margin: 8px 0 5px;
+}
+
+.detail-list {
+  list-style: none;
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.detail-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.detail-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #1a1a1a;
+}
+
+.credential-item:hover,
+.experience-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.experience-entry {
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.experience-header h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.experience-institution {
+  color: #666;
+  font-size: 1.05rem;
+  margin: 8px 0 5px;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    gap: 40px;
+  }
+
+  .education-category h3 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .credential-item,
+  .experience-entry {
+    padding: 25px;
+    min-width: 0;
+  }
+}
+

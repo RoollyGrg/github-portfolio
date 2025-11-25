@@ -1,0 +1,22 @@
+ONLINE PORTFOLIO SUBMISSION
+George Brown College - Technology Program
+iOS Development Portfolio
+
+Portfolio Link: [YOUR_DEPLOYED_PORTFOLIO_URL]
+
+Instructions:
+1. Replace [YOUR_DEPLOYED_PORTFOLIO_URL] above with your actual deployed portfolio URL
+2. Copy this content into a Microsoft Word document
+3. Format as needed and save as a .docx file
+4. Submit to D2L before the deadline
+
+Portfolio Sections Included:
+✓ Profile Section - Summary/Bio customized for iOS development and UI/UX design
+✓ Skills (Resume) Section - Technical skills and professional experience
+✓ Work Samples Section - GitHub links and project showcases
+✓ Education & Acknowledgements Section - Academic credentials, certificates, transcripts, and recommendations
+✓ Navigation Menu - Jump links to all sections
+✓ Clean, Minimal, and Simple Design - Professional appearance
+
+Note: Make sure the portfolio link is accessible and does not require login credentials.
+
